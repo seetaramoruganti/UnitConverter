@@ -1,4 +1,4 @@
-
+package Converter;
 
 import java.awt.Dimension;
 import java.awt.FlowLayout;
@@ -15,7 +15,7 @@ public class UnitConverter {
 	private boolean state = true; // default state
 	public UnitConverter() {
 		
-	JFrame frame = new JFrame("Unit Converter v.1.0 by Java Coding Community"); // title
+	JFrame frame = new JFrame("Unit Converter"); // title
 	
 	frame.setLocationRelativeTo(null);
 	// first row
